@@ -1,0 +1,329 @@
+@font-face
+{
+font-family: africa1;
+src: url('../font/south afirkas 2100.ttf')
+}
+* {
+     font-family: serif;
+     margin: 0;
+}
+html, body {
+/*  Make sure page fills up screen */
+     height: 100%;
+     margin: 0;
+     padding: 0;
+
+     background-color: #996633;
+}
+.wrapper {
+/*	Make sure wrapper fills up html/body and position footer */
+	margin: auto;
+	min-height: 100%;
+	
+	position: relative;
+
+	background-color: #FFCC99;
+	box-shadow: 0 0 20px 10px #6E4905;
+	
+}
+.content {
+	/* Make room for footer*/
+     padding-bottom: 2em;
+
+     font-family: "Lucida Grande", "Lucida Console", "Lucida Sans", "times new roman", serif;
+     font-size: 1.5em;
+
+}
+header
+{
+	margin-bottom:.5em;
+}
+
+footer {
+     bottom: 0;
+     height: 2em;
+     position: absolute;
+     width: 100%;
+}
+
+footer  p
+{
+     text-align: center;
+}
+li {
+     line-height: 125%;
+}
+
+nav
+{
+	text-align: center;
+	margin: auto;
+	width: 40em;
+	margin-bottom: 2em;
+}
+nav li
+{
+	display: inline;
+	
+}
+
+nav li:before
+{
+	content: "-";
+	font-family: africa1, africa2, Pacifico, sans-serif;
+	font-size: 1.3em;
+	margin-right: 1.5em;
+
+}
+nav ul
+{
+	margin: auto;	
+}
+nav ul li:first-child
+{
+	list-style: none;
+
+}
+nav ul li:first-child:before
+{
+	content: none;
+
+}
+article p
+{
+	display: inline;
+	width:30%;
+}
+article img
+{
+	display: inline;
+}
+#expand
+{
+	display: block;
+}
+h1
+{
+	font-family:africa1, africa2, Pacifico, sans-serif;
+	font-size: 6em;
+	text-align: center;
+	letter-spacing:.07em;
+	margin-top:.2em;
+}
+a
+{
+	font-family:inherit;
+	color:inherit;
+	font-size:inherit;
+	text-align: inherit;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+	color: white;
+}
+h1.home:hover
+{
+	color:white;
+	text-decoration:none;
+}
+a.home:hover
+{
+	text-decoration:none;
+}
+img.pic
+{
+	width: 220px;
+	height: 220px;
+	display:inline;
+}
+ul{
+	list-style: none;
+}
+h2{
+	font-family: africa1, africa2, Pacifico, Arial, sans-serif;
+	margin-bottom:.1em;
+	margin-top: .5em;
+	letter-spacing:.1em;
+}
+h2:first-child
+{
+	margin-top: 0;
+}
+.italic
+{
+	font-style:italic;
+}
+li.grid_3
+{
+	margin-top: 1em;
+}
+nav a:hover
+{
+	text-decoration:none;
+}
+nav a{
+	font-family: africa1, africa2, Pacifico, sans-serif;
+	font-size: 1.3em;
+	letter-spacing: .1em;
+}
+li.facts
+{
+	list-style-type: disc;
+}
+h3
+{
+	font-family: africa1, africa2, Pacifico, sans-serif;
+	font-size: 1em;
+	letter-spacing: .1em;
+	margin-bottom: 0;
+	margin-top: 1em;
+}
+iframe.video
+{
+	margin-top: 1em;
+}
+blockquote {
+background:#DEB58C;
+border-left:10px solid #000;
+margin:1.5em 10px;
+padding:.5em 10px;
+quotes:"\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+color:#000;
+content:open-quote;
+font-size:4em;
+line-height:.1em;
+margin-right:.25em;
+vertical-align:-.4em;
+}
+blockquote p {
+display:inline;
+}
+p.sub
+{
+	font-size: .7em;
+	margin-bottom: .5em;
+	margin-left: 1.5em;
+}
+li.source
+{
+    text-indent: -3em;
+    margin-left: 3em;
+}
+figcaption
+{
+	font-size: .6em;
+}
+section
+{
+	margin-bottom: 1.2em;
+	overflow:hidden;
+}
+.flip-img
+{
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+p.home
+{
+	margin-left:2em;
+	margin-right:2em;
+}
+article.home
+{
+	margin-top: 2em;
+}
+.title
+{
+	font-family:inherit;
+	letter-spacing:inherit;
+	font-size:.2em;
+	text-align: left;
+}
+.time
+{
+	font-size: .9em;
+	margin-left: 1em;
+	letter-spacing: 0;
+}
+
+h2.comments
+{
+	font-size: .8em;
+	margin-top:1em;
+}
+.name
+{
+	font-size: .7em
+
+}
+.rating
+{
+	font-size: .9em;
+}
+.comments
+{
+	margin-left:1em;
+}
+img.pics
+{
+	width:220px;
+}
+#slides
+{
+	margin-top: 1em;
+}
+.slides_container {
+	width:570px;
+	height:270px;
+	margin:auto;
+}
+.slides_container div {
+	width:570px;
+	height:270px;
+	display:block;
+
+}
+.pagination
+{
+	text-align:center;
+	margin-top: .3em;
+	color: #72471d;
+}
+.pagination li
+{
+	display: inline;
+	font-size: .7em;
+	font-family: helvetica, arial, sans-serif;
+}
+.pagination li a:hover
+{
+	text-decoration: none;
+	color:inherit;
+}
+.current
+{
+	color: white;
+	}
+.books
+{
+margin-right: 2.5em;
+}
+.toggle
+{
+	margin-bottom: 0;
+	font-size:.6em;
+	font-family: serif;
+	letter-spacing: 0;
+}
+embed
+{
+	margin-bottom: 1em;
+}
